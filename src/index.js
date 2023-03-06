@@ -6,7 +6,8 @@ import ReactDOM from 'react-dom/client';
 // import StateCounter2 from './Components/StateCounter2';
 // import Name from './Components/Name';
 // import HookCounterFour from './Components/HookCounterFour';
-import SideEffects from './Components/SideEffects';
+// import SideEffects from './Components/SideEffects';
+import SideEffectsCl from './Components/SideEffectsCl';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -17,7 +18,7 @@ root.render(
     <StateCounter2 /> */}
     {/* <Name /> */}
     {/* <HookCounterFour /> */}
-    <SideEffects />
+    <SideEffectsCl />
   </React.StrictMode>
 );
 
