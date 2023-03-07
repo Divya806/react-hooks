@@ -7,7 +7,9 @@ import ReactDOM from 'react-dom/client';
 // import Name from './Components/Name';
 // import HookCounterFour from './Components/HookCounterFour';
 // import SideEffects from './Components/SideEffects';
-import SideEffectsCl from './Components/SideEffectsCl';
+// import SideEffectsCl from './Components/SideEffectsCl';
+// import ConditionalEffectsCl from './Components/ConditionalEffectsCl';
+import HookMouse from './Components/HookMouse';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -18,8 +20,10 @@ root.render(
     <StateCounter2 /> */}
     {/* <Name /> */}
     {/* <HookCounterFour /> */}
-    <SideEffectsCl />
+    {/* <SideEffectsCl /> */}
     {/* <SideEffects /> */}
+    {/* <ConditionalEffectsCl /> */}
+    <HookMouse />
   </React.StrictMode>
 );
 
