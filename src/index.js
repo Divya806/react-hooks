@@ -19,6 +19,7 @@ root.render(
     {/* <Name /> */}
     {/* <HookCounterFour /> */}
     <SideEffectsCl />
+    {/* <SideEffects /> */}
   </React.StrictMode>
 );
 
