@@ -9,7 +9,10 @@ import ReactDOM from 'react-dom/client';
 // import SideEffects from './Components/SideEffects';
 // import SideEffectsCl from './Components/SideEffectsCl';
 // import ConditionalEffectsCl from './Components/ConditionalEffectsCl';
-import HookMouse from './Components/HookMouse';
+// import HookMouse from './Components/HookMouse';
+// import IntervalClassCounterCl from './Components/IntervalClassCounterCl';
+// import IntervalClassCounter from './Components/IntervalClassCounter';
+import Apply from './Components/Apply';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -23,7 +26,9 @@ root.render(
     {/* <SideEffectsCl /> */}
     {/* <SideEffects /> */}
     {/* <ConditionalEffectsCl /> */}
-    <HookMouse />
+    {/* <IntervalClassCounterCl /> */}
+    {/* <IntervalClassCounter /> */}
+    <Apply />
   </React.StrictMode>
 );
 
