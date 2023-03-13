@@ -12,7 +12,9 @@ import ReactDOM from 'react-dom/client';
 // import HookMouse from './Components/HookMouse';
 // import IntervalClassCounterCl from './Components/IntervalClassCounterCl';
 // import IntervalClassCounter from './Components/IntervalClassCounter';
-import Apply from './Components/Apply';
+// import Apply from './Components/Apply';
+// import Checker from './Components/Checker';
+import ItemsMap from './Components/ItemsMap';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -28,7 +30,8 @@ root.render(
     {/* <ConditionalEffectsCl /> */}
     {/* <IntervalClassCounterCl /> */}
     {/* <IntervalClassCounter /> */}
-    <Apply />
+    {/* <Apply /> */}
+    <ItemsMap />
   </React.StrictMode>
 );
 
